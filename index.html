@@ -50,7 +50,7 @@
           var message =  document.getElementById('message')
           if (date == "12/06"){
             message.innerHTML= 
-              ("Yes, Aunt Tracy's birthday is December 6th! No wonder she never likes anyones gifts >_<")
+              ("If by special you mean my birthday!🥳")
             if (message.classList.contains("alert-danger")){
               document.getElementById('message').classList.remove("alert-danger")
             }
@@ -58,7 +58,7 @@
               document.getElementById('message').classList.add("alert-success")
             } 
           }else{
-            message.innerHTML= ("Nope, that's not her birthday :(")
+            message.innerHTML= ("Nope, nothing special")
             if (message.classList.contains("alert-success")){
               document.getElementById('message').classList.remove("alert-success")
             }
@@ -77,7 +77,7 @@
     <div class="card centered text-white bg-info " >
       <i class="fas fa-birthday-cake fa-7x" id="cake"></i>
       <div class="card-body">
-        <h5 class="card-title">When is Aunt Tracey's Birthday?</h5>
+        <h5 class="card-title">Hi Aunt Tracey! Just calling to see if you had anything special coming up on</h5>
         <form onsubmit="return false;">
           <input type="text" name="user_input" id="user_input" 
             pattern="(0[1-9]|1[012])[- \/.](0[1-9]|[12][0-9]|3[01])"
